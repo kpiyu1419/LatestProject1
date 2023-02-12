@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.HealthGrpah.testCases.TC_LoginTest_001">
+        <methods>
+          <include name="SelectAccount"/>
+          <include name="TransferFund"/>
+          <include name="tearDown"/>
+          <include name="ContactUs"/>
+          <include name="ViewAccSummary"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.HealthGrpah.testCases.TC_LoginTest_001 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
